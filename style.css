@@ -1,0 +1,58 @@
+:root{
+    --color-letra-texto: #6a040f;
+    --color-fondo: #f48c06;
+    --color-letra-titulo: #df3838;
+    --color-fondo-oscuro: rgb(10, 10, 10);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--color-fondo);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: var(--color-letra-titulo);
+    background-color: var(--color-fondo-oscuro);
+    font-size: 2rem;
+    height: 20rem;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--color-fondo-oscuro);
+    height: 30rem;
+    font-size: 2rem;
+    margin: 2.5rem 3rem;
+    color: var(--color-letra-titulo);
+    border-radius: 1.5rem;
+}
+
+
+.footer{
+    color: var(--color-letra-titulo);
+    height: 40vh;
+    background-color: var(--color-fondo-oscuro);
+    font-size: 1.5rem;
+}
+
+/* .Recetas {
+    
+} */
